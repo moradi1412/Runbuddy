@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS to the HTML file  -->
     <link rel="stylesheet" href="./assets/style.css">
     <title>Run Buddy</title>
 </head>
@@ -37,6 +38,7 @@
         </nav>
 
     </header>
+
     <!-- hero/jumbotron -->
     <section>
 
@@ -47,20 +49,28 @@
             <!-- add form element  -->
             <form action="">
                 <label for="name">Enter Full Name: </label>
-                <input type="text" placeholder="Your Name" name="name" id="name"/>
+                <input type="text" placeholder="Your Name" name="name" id="name" />
                 <label for="email">Enter email address:</label>
                 <input type="text" placeholder="Email Address" name="email" id="email" />
                 <label for="phone">Enter a telephone number:</label>
-                <input type="text" placeholder="Phone Number" name="phone" id="phone"/>
-                <p> Have you worked out with a trainer before</p>
-                <input type="radio" name="trainer-confirm" id="trianer-yes"/>
-                <label for="trainer-yes">YES</label>
-                <input type="radio" name="trainer-confirm" id="trianer-no"/>
-                <label for="trainer-no">No</label>
-                
+                <input type="text" placeholder="Phone Number" name="phone" id="phone" />
+                <p>
+                    Have you worked out with a trainer before
+                    <input type="radio" name="trainer-confirm" id="trianer-yes" />
+                    <label for="trainer-yes">YES</label>
+                    <input type="radio" name="trainer-confirm" id="trianer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="checkbox">I acknowledge that I am at least 18 years old.</label>
+                    <input type="checkbox" name="age-cofirm" id="checkbox" />
+                </p>
+                <button type="submit">Get Started</button>
             </form>
+
+
         </div>
-        
+
     </section>
 
     <!-- "what we do" section  -->
