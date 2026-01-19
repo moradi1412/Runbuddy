@@ -10,4 +10,6 @@ Things that accomplished
 - Use CSS selectors to apply styles to specific HTML elements.
 - Build header and footer components for a webpage.
 - Use HTML attributes to provide additional context to HTML elements.
-- create forms and sign-up forms 
+- create forms and sign-up forms that allows interaction betwenn the visitor and the website 
+- demonstrate the relative and absolute position - CSS 
+- Used the Chrome DevTools 

@@ -201,6 +201,28 @@ footer a:hover {
 
 /* MEDIA QUERIES - TABLET (768px and below) */
 @media screen and (max-width: 768px) {
+    .hero {
+        height: 400px;
+        padding: 30px;
+    }
+
+    .hero-form {
+        max-width: 400px;
+        padding: 15px;
+        bottom: 40px;
+        right: 20px;
+        left: auto;
+    }
+
+    .hero-form h3 {
+        font-size: 20px;
+    }
+
+    .form-input {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
     header {
         padding: 15px 20px;
         flex-direction: column;
@@ -247,6 +269,56 @@ footer a:hover {
 
 /* MEDIA QUERIES - MOBILE (480px and below) */
 @media screen and (max-width: 480px) {
+    .hero {
+        height: fit-content;
+        padding: 15px;
+        background-position: center;
+    }
+
+    .hero-form {
+        position: relative;
+        max-width: 100%;
+        width: 100%;
+        padding: 20px 15px;
+        margin: 20px 0; 
+        bottom: auto;
+        right: auto;
+        left: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    .hero-form h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .hero-form p {
+        font-size: 14px;
+        margin: 8px 0 12px 0;
+    }
+
+    .form-input {
+        padding: 10px 12px;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .form-input::placeholder {
+        font-size: 14px;
+    }
+
+    .hero-form label {
+        font-size: 14px;
+        display: block;
+        margin: 8px 0 4px 0;
+    }
+
+    .hero-form button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
     header {
         padding: 10px 15px;
     }
@@ -285,7 +357,7 @@ footer a:hover {
     }
 
     form input {
-        padding: 8px;
+        padding: 10px 12px;
         font-size: 16px;
     }
 
@@ -297,5 +369,13 @@ footer a:hover {
     footer h2 {
         font-size: 18px;
         color: #00dbc5;
+        min-width: auto;
+        flex: auto;
     }
+
+    footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
 }
