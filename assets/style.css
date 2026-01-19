@@ -1,33 +1,36 @@
-*{ 
+* {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #e8f4f8;
+    background-color: #1a1a1a;
     line-height: 1.6;
+    color: #e0e0e0;
 }
 
 header {
     padding: 20px 35px;
-    background-color: #00796b;
+    background-color: #0d0d0d;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    border-bottom: 3px solid #00796b;
 }
 
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #e0f2f1;
+    color: #00dbc5;
     margin: 0;
 }
 
-header a { 
+header a {
     text-decoration: none;
-    color: #80deea;
+    color: #00dbc5;
 }
 
 header nav {
@@ -52,14 +55,89 @@ header nav ul li a {
     display: inline-block;
 }
 
+.hero {
+    /* padding: 40px 35px; */
+    position: relative;
+    padding: 60px;
+    background-image: url('../assets/images/Hero.png');
+    height: 600px;
+    background-size: cover;
+    background-position: top;
+}
+
+.hero-form {
+    background: rgba(13, 13, 13, 0.95);
+    padding: 20px;
+    max-width: 500px;
+    color: #e0e0e0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #00dbc5;
+    position: absolute;
+    bottom: 80px;
+    right: 140px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #00dbc5;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form label { 
+    margin: 0 5px;
+}
+
+.hero-form button {
+    background-color: #00dbc5;
+    color: #0d0d0d;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.form-input {
+    border: 1px solid #00dbc5;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #e0e0e0;
+    background-color: #2a2a2a;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.form-input::placeholder {
+    color: #888888;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #00f0d9;
+    background-color: #333333;
+}
+
 section {
     padding: 40px 35px;
+    background-color: #262626;
+    border-top: 1px solid #333333;
 }
 
 section h2 {
     font-size: 32px;
-    color: #00695c;
+    color: #00dbc5;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 form {
@@ -86,7 +164,7 @@ form label {
 } */
 
 footer {
-    background: #26a69a;
+    background: #0d0d0d;
     width: 100%;
     padding: 40px 35px;
     display: flex;
@@ -94,10 +172,11 @@ footer {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
+    border-top: 3px solid #00796b;
 }
 
-footer h2 { 
-    color: #e0f2f1;
+footer h2 {
+    color: #00dbc5;
     font-size: 30px;
     margin: 0;
     flex: 1;
@@ -107,10 +186,17 @@ footer h2 {
 footer div {
     line-height: 1.5;
     text-align: right;
+    color: #e0e0e0;
 }
 
 footer a {
-    color: #e0f2f1;
+    color: #00dbc5;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #00f0d9;
 }
 
 /* MEDIA QUERIES - TABLET (768px and below) */
@@ -150,7 +236,7 @@ footer a {
 
     footer h2 {
         font-size: 24px;
-        color: #e0f2f1;
+        color: #00dbc5;
     }
 
     footer div {
@@ -210,7 +296,6 @@ footer a {
 
     footer h2 {
         font-size: 18px;
-        color: #e0f2f1;
+        color: #00dbc5;
     }
 }
-
