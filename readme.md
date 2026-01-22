@@ -1,9 +1,7 @@
-webpage address 
+webpage address  https://moradi1412.github.io/Runbuddy/
 
-
-https://moradi1412.github.io/Runbuddy/
-
-
+Tech Stack 
+HTML, CSS, JavaScript 
 
 Things that accomplished 
 - Use relative paths to connect HTML and CSS documents.
@@ -13,4 +11,4 @@ Things that accomplished
 - create forms and sign-up forms that allows interaction betwenn the visitor and the website 
 - demonstrate the relative and absolute position - CSS 
 - Used the Chrome DevTools 
--SVG format 
+- SVG format 
