@@ -145,6 +145,35 @@ form {
     margin-bottom: 20px;
 }
 
+
+
+.intro {
+    text-align: center;
+}
+
+.image {
+    width: 50px;
+    height: 50px;   
+}
+
+.intro h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+    color: #00796b;
+    padding: 0px 100px 20px 100px;
+    border-bottom: 3px solid #00dbc5;
+}
+
+
+.intro p {
+    line-height: 1.8;
+    font-size: 18px;
+    width: 80%;
+    color: #39a6b2;
+    margin: 0 auto;
+} 
+
+
 /* form input,
 form label {
     display: block; 
@@ -360,6 +389,7 @@ footer a:hover {
         padding: 10px 12px;
         font-size: 16px;
     }
+
 
     footer {
         padding: 20px 15px;
