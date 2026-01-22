@@ -140,6 +140,23 @@ section h2 {
     letter-spacing: 1px;
 }
 
+.section-title {
+    font-size: 55px;
+    margin-bottom: 35px;
+    color: #00796b;
+    padding: 0px 100px 20px 100px;
+    display: inline-block;      
+    border-bottom: 3px solid #00dbc5;
+}
+
+.primary-border {
+    border-color: #00dbc5;
+}
+
+secondary-border {
+    border-color: #00796b;
+}
+
 form {
     max-width: 100%;
     margin-bottom: 20px;
@@ -150,19 +167,19 @@ form {
 .intro {
     text-align: center;
 }
-
+/* 
 .image {
     width: 50px;
     height: 50px;   
-}
-
+} */
+/* 
 .intro h2 {
     font-size: 55px;
     margin-bottom: 35px;
     color: #00796b;
     padding: 0px 100px 20px 100px;
     border-bottom: 3px solid #00dbc5;
-}
+} */
 
 
 .intro p {
@@ -172,6 +189,44 @@ form {
     color: #39a6b2;
     margin: 0 auto;
 } 
+
+
+.steps { 
+    text-align: center;
+    background: #1a1a1a;
+}
+
+.steps div {
+    margin-bottom: 80px;
+}
+
+.steps .image {
+    width: 15%;   
+    margin-bottom: 20px 0;
+}
+
+.steps h3 {
+    font-size: 46px;
+    color: #00dbc5;
+    margin-top: 10px;
+}
+
+.steps p {
+    font-size: 23px;
+    color: #39a6b2;
+}
+.steps span {
+    font-size: 38px;
+}
+
+
+/* .steps h2 {
+    font-size: 55px;
+    margin-bottom: 35px;
+    color: #00796b;
+    padding: 0px 100px 20px 100px;
+    border-bottom: 3px solid #00dbc5;
+} */
 
 
 /* form input,
