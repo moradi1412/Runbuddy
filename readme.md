@@ -12,3 +12,4 @@ Things that accomplished
 - demonstrate the relative and absolute position - CSS 
 - Used the Chrome DevTools 
 - SVG format 
+- Float (CSS)
