@@ -13,3 +13,4 @@ Things that accomplished
 - Used the Chrome DevTools 
 - SVG format 
 - Float (CSS)
+- Create and build map 
