@@ -315,6 +315,24 @@ form label {
     color: aliceblue;
 }
 
+.contact-info h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #00dbc5;
+}
+
+.contact-info p, .contact-info address {
+    font-size: 20px;
+    margin: 20px 0;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+
+
+
+
+
 footer {
     background: #0d0d0d;
     width: 100%;
