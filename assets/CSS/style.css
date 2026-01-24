@@ -59,7 +59,7 @@ header nav ul li a {
     /* padding: 40px 35px; */
     position: relative;
     padding: 60px;
-    background-image: url('../assets/images/Hero.png');
+    background-image: url('../images/Hero.png');
     height: 600px;
     background-size: cover;
     background-position: top;
@@ -328,6 +328,15 @@ form label {
     font-style: normal;
 }
 
+.seconday-content {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+    color: #e0e0e0;
+    line-height: 1.8;
+    font-size: 18px;
+}
+
 
 
 
@@ -549,4 +558,44 @@ footer a:hover {
         width: 100%;
     }
 }
+}
+
+/* Secondary Content - Privacy Policy */
+.secondary-content {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    padding: 35px;
+    background: #1a1a1a;
+    color: #e0e0e0;
+    line-height: 1.8;
+}
+
+.secondary-content h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0 15px 0;
+    color: #00dbc5;
+    border-bottom: 2px solid #00796b;
+    padding-bottom: 10px;
+}
+
+.secondary-content h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+    color: #00dbc5;
+}
+
+.secondary-content p {
+    margin: 10px 0 15px 0;
+    text-align: justify;
+}
+
+.secondary-content ul {
+    margin: 10px 0 15px 20px;
+    list-style-type: disc;
+}
+
+.secondary-content li {
+    margin-bottom: 8px;
 }
